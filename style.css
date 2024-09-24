@@ -52,10 +52,7 @@ html {
 	flex-direction: row;
 }
 
-a.contact:link,
-a.contact:visited,
-a.contact:hover,
-a.contact:active {
+.contact-item {
 	font-family: "Open Sans", sans-serif;
 	font-optical-sizing: auto;
 	font-weight: 300;
