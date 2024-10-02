@@ -42,6 +42,16 @@ html {
 	font-size: 20px;
 }
 
+.footer-container {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: right;
+	justify-content: right;
+	-webkit-align-items: right;
+	align-items: normal;
+	flex-direction: column;
+}
+
 .contact-container {
 	display: -webkit-flex;
 	display: flex;
@@ -61,4 +71,14 @@ html {
 	color: #fff;
 	font-size: 15px;
 	text-decoration: none;
+}
+
+.registered-container {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: right;
+	justify-content: right;
+	-webkit-align-items: right;
+	align-items: normal;
+	flex-direction: row;
 }
